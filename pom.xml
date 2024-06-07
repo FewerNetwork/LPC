@@ -6,7 +6,7 @@
 	<artifactId>lpc2</artifactId>
 	<name>LPC2</name>
 	<description>A chat formatting plugin for LuckPerms.</description>
-	<version>3.6.1</version>
+	<version>3.6.1-f1.0.0</version>
 	<packaging>jar</packaging>
 	
 	<properties>
