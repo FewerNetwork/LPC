@@ -6,6 +6,7 @@
 .idea/
 .idea_modules/
 *.iml
+.vscode/
 
 # IntelliJ
 out/

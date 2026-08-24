@@ -26,7 +26,7 @@ import java.util.stream.Collectors;
 public final class FewerLPC extends JavaPlugin implements Listener {
 
 	LegacyComponentSerializer serializer = LegacyComponentSerializer.legacyAmpersand();
-	LegacyComponentSerializer rgbSerializer = LegacyComponentSerializer.legacyAmpersand().toBuilder().hexColors().build();
+	LegacyComponentSerializer rgbSerializer = LegacyComponentSerializer.builder().character('&').hexColors().build();
 	private static final Pattern HEX_PATTERN = Pattern.compile("&#([A-Fa-f0-9]{6})");
 
 	private LuckPerms luckPerms;
